@@ -1,3 +1,14 @@
 html {
   scroll-behavior: smooth;
 }
+
+.welcome {
+  background-image:image();
+  background-position: center;
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 17%;
+  font-family: cursive;
+}
