@@ -34,3 +34,14 @@ html {
   margin-top: 10%;
   padding-bottom: 30px;
 }
+
+.about {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-family: cursive;
+}
+
+#about {
+  font-family: cursive;
+}
