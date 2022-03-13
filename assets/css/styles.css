@@ -12,3 +12,12 @@ html {
   padding-top: 17%;
   font-family: cursive;
 }
+
+.welcome h1 {
+  padding: 2px;
+  margin: 5px;
+}
+
+.welcome p {
+  padding: 2px;
+}
