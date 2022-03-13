@@ -66,3 +66,17 @@ html {
   padding-top: 10%;
   padding-bottom: 10%;
 }
+
+.whatWeDo {
+  font-family: cursive;
+  text-align: center;
+  padding-top: 40%;
+}
+
+.whatWeDo .headings {
+  padding-bottom: 38px;
+}
+
+.title {
+  padding: 6px;
+}
