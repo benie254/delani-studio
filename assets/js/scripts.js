@@ -8,3 +8,25 @@ $(document).ready(function(){
     $("#developmentImage").slideDown('1500');
   });
 });
+
+$(document).ready(function(){
+  $("#designImage").click(function(){
+    $("#designImage").slideDown('1500').hide('1000');
+    $("#design").show('1500');
+  });
+  $("#design").click(function(){
+    $("#design").slideUp('1500');
+    $("#designImage").slideDown('1500');
+  });
+});
+
+$(document).ready(function(){
+  $("#productImage").click(function(){
+    $("#productImage").slideDown('1500').hide('1000');
+    $("#product").show('1500');
+  });
+  $("#product").click(function(){
+    $("#product").slideUp('1500');
+    $("#productImage").slideDown('1500');
+  });
+});
