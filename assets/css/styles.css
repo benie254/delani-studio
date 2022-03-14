@@ -157,3 +157,13 @@ button {
   padding-bottom: 30px;
   maegin-bottom: 20px;
 }
+
+footer {
+  padding-top: 30px;
+  text-align: center;
+}
+
+footer p {
+  font-family: cursive;
+  margin-top: 10px;
+}
