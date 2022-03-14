@@ -55,6 +55,7 @@
 
 .services h2 {
   font-family: cursive;
+  margin-top: 60px;
 }
 
 #servicesOverlay {
@@ -218,8 +219,34 @@ footer p {
   margin-bottom: 0px;
 }
 
+#designIcon {
+  width: 80px;
+  height: 92px;
+}
+#devIcon {
+  width: 80px;
+  height: 92px;
+}
+#productIcon {
+  width: 80px;
+  height: 92px;
+}
+
+#productID {
+  width: 202px;
+  height: 64px;
+  text-align: justify;
+}
+
 @media only screen and (max-width: 768px) {
   [class*="col-md-3"] {
     width: 100%;
+  }
+  [class*="col-md-4"] {
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 125px;
+    align-items: center;
+    justify-content: center;
   }
 }
