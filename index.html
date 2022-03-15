@@ -2,11 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="assets/js/scripts.js" charset="utf-8"></script>
     <title>Delani Studio</title>
+    <script src="assets/js/jquery-mailchimp.min.js"></script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
   </head>
   <body>
     <div class="welcome">
@@ -34,105 +37,109 @@
     </div>
     <div class="container whatWeDo">
       <h2 class="heading">WHAT WE DO</h2>
-      <div class="row">
+      <div class="row" id="whatWeDoRowId">
         <div class="col-md-4">
           <div id="design" style="display: none;">
             <h2 class="title">DESIGN</h2>
-            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+            <p class="whatWeDoText">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
           </div>
           <div id="designIcon" style="">
             <img src="assets/img/services_icons/design_icon.png" alt="design" width="80px" height="92px">
-            <p>DESIGN</p>
+            <h6><center>DESIGN</center></h6>
           </div>
         </div>
         <div class="col-md-4">
           <div id="development" style="display: none;">
             <h2 class="title">DEVELOPMENT</h2>
-            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+            <p class="whatWeDoText">All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
           </div>
           <div id="devIcon" style="">
             <img src="assets/img/services_icons/dev_icon.png" alt="development" width="80px" height="92px">
-            <p>DEVELOPMENT</p>
+            <h6><center>DEVELOPMENT</center></h6>
           </div>
         </div>
         <div class="col-md-4">
           <div id="product" style="display: none;">
-            <h2 class="title">PRODUCT MANAGEMENT</h2>
-            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
+            <h5 class="title">PRODUCT MANAGEMENT</h5>
+            <p class="whatWeDoText">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
           </div>
           <div id="productIcon" style="">
             <img src="assets/img/services_icons/product_icon.png" alt="product" width="80px" height="92px">
-            <p id="productID">PRODUCT MANAGEMENT</p>
+            <h6><center>PRODUCT MANAGEMENT</center></h6>
           </div>
         </div>
       </div>
     </div>
     <div class="portfolio">
       <h2>PORTFOLIO</h2>
-      <div class="row" id="portfolio">
+      <div class="row" id="portfolioRow">
         <div class="col-md-3" id="project1">
           <img src="assets/img/portfolio/work1.jpg" alt="project1" class="projectImage" style="width: 100%">
           <div class="middle">
-            <p id="overlay" class="text">Project One</p>
+            <p id="overlay" class="text">Jim Carrey</p>
           </div>
         </div>
         <div class="col-md-3" id="project2">
           <img src="assets/img/portfolio/work2.jpg" alt="project2" class="projectImage" style="width: 100%">
           <div class="middle">
-            <p id="overlay2" class="text">Project Two</p>
+            <p id="overlay2" class="text">Software Development</p>
           </div>
         </div>
         <div class="col-md-3" id="project3">
           <img src="assets/img/portfolio/work3.jpg" alt="project3" class="projectImage" style="width: 100%">
           <div class="middle">
-            <p id="overlay3" class="text">Project Three</p>
+            <p id="overlay3" class="text">Mighty Ontario</p>
           </div>
         </div>
         <div class="col-md-3" id="project4">
           <img src="assets/img/portfolio/work4.jpg" alt="project4" class="projectImage" style="width: 100%">
           <div class="middle">
-            <p id="overlay4" class="text">Project Four</p>
+            <p id="overlay4" class="text">Black Magic</p>
           </div>
         </div>
       </div>
-      <div class="row" id="portfolio">
+      <div class="row" id="portfolioRow2">
         <div class="col-md-3" id="project5">
           <img src="assets/img/portfolio/work5.jpg" alt="project5" class="projectImage" style="width: 100%">
           <div class="middle">
-            <p id="overlay5" class="text">Project Five</p>
+            <p id="overlay5" class="text">Elena</p>
           </div>
         </div>
         <div class="col-md-3" id="project6">
           <img src="assets/img/portfolio/work6.jpg" alt="project6" class="projectImage" style="width: 100%">
           <div class="middle">
-            <p id="overlay6" class="text">Project Six</p>
+            <p id="overlay6" class="text">Tribrid Calculator</p>
           </div>
         </div>
         <div class="col-md-3" id="project7">
           <img src="assets/img/portfolio/work7.jpg" alt="project7" class="projectImage" style="width: 100%">
           <div class="middle">
-            <p id="overlay7" class="text">Project Seven</p>
+            <p id="overlay7" class="text">Burned C</p>
           </div>
         </div>
         <div class="col-md-3" id="project8">
           <img src="assets/img/portfolio/work8.jpg" alt="project8" class="projectImage" style="width: 100%">
           <div class="middle">
-            <p id="overlay8" class="text">Project Eight</p>
+            <p id="overlay8" class="text">Giraffe Restaurant</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid contact">
+    <div class="container-fluid contact" id="mc_embed_signup">
       <h2>CONTACT US</h2>
-      <form id="contactUS" action="https://gmail.us3.list-manage.com/subscribe/post" method="post">
+      <form id="contactUS" action="https://blog.us4.list-manage.com/subscribe/post?u=32f6cd75cb30398abda1802ee&amp;id=ead7be69c8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <input type="hidden" name="u" value="nameInputValue">
         <input type="hidden" name="id" value="emailInputValue">
         <div class="form-group form-inline">
-          <input type="text" class="form-control" placeholder="Name..." name="contactName" id="contactName" size="50" value="">
-          <input type="email" class="form-control" placeholder="Email..." autocapitalize="off" name="contactEmail" id="contactEmail" size="50" value="">
+          <input type="text" class="form-control" placeholder="Name..." name="FNAME" id="mce-FNAME" size="50" value="" required>
+          <input type="email" class="form-control" placeholder="Email..." autocapitalize="off" name="EMAIL" id="mce-EMAIL" size="50" value="" required>
         </div>
         <div class="form-group">
-          <textarea class="form-control" rows="8" id="message" placeholder="Your message here..."></textarea>
+          <textarea class="form-control" rows="8" id="mce-MSG" placeholder="Your message here..." type="text" name="MSG" required></textarea>
+        </div>
+        <div id="mce-responses" class="clear foot">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
         </div>
         <button type="submit" name="btn btn-primary col-md-1">Submit</button>
       </form>
@@ -152,5 +159,39 @@
       <p>2019</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="assets/js/scripts.js" charset="utf-8"></script>
+    <script type='text/javascript'></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script>
+	$('form.sign-up').on('submit',function(e) {
+		// Highjack the submit button, we will do it ourselves
+		e.preventDefault();
+		// uncomment next line & check console to see if button works
+		// console.log('submit button worked!');
+
+		// store all the form data in a variable
+		var formData = $(this).serialize();
+
+		// Let's make the call!
+		// Replace the path to your own endpoint!
+		$.getJSON('http://localhost:8888/cool-cats-optin/mc-end-point.php', formData ,function(data) {
+			// uncomment next line to see your data output in console
+			// console.log(data);
+
+			// If it worked...
+			if(data.status === 'subscribed') {
+				// Let us know!
+				alert('Thanks!');
+			} else {
+				// Otherwise tell us why it didn't
+				alert("oops error: " + data.detail);
+			}
+		});
+
+	});
+</script>
   </body>
 </html>

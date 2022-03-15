@@ -35,7 +35,7 @@ $(document).ready(function(){
 $(function() {
 	$("#project1").css("opacity","1");
 	$("#project1").hover(function() {
-		$(this).stop().animate({ opacity: 0.8 }, "fast");
+		$(this).stop().animate({ opacity: 0.85 }, "fast");
 	},
 	function() {
 		$(this).stop().animate({ opacity: 1 }, "fast");
@@ -45,7 +45,7 @@ $(function() {
 $(function() {
 	$("#project2").css("opacity","1");
 	$("#project2").hover(function() {
-		$(this).stop().animate({ opacity: 0.8 }, "fast");
+		$(this).stop().animate({ opacity: 0.85 }, "fast");
 	},
 	function() {
 		$(this).stop().animate({ opacity: 1 }, "fast");
@@ -55,7 +55,7 @@ $(function() {
 $(function() {
 	$("#project3").css("opacity","1");
 	$("#project3").hover(function() {
-		$(this).stop().animate({ opacity: 0.8 }, "fast");
+		$(this).stop().animate({ opacity: 0.85 }, "fast");
 	},
 	function() {
 		$(this).stop().animate({ opacity: 1 }, "fast");
@@ -65,7 +65,7 @@ $(function() {
 $(function() {
 	$("#project4").css("opacity","1");
 	$("#project4").hover(function() {
-		$(this).stop().animate({ opacity: 0.8 }, "fast");
+		$(this).stop().animate({ opacity: 0.85 }, "fast");
 	},
 	function() {
 		$(this).stop().animate({ opacity: 1 }, "fast");
@@ -75,7 +75,7 @@ $(function() {
 $(function() {
 	$("#project5").css("opacity","1");
 	$("#project5").hover(function() {
-		$(this).stop().animate({ opacity: 0.8 }, "fast");
+		$(this).stop().animate({ opacity: 0.85 }, "fast");
 	},
 	function() {
 		$(this).stop().animate({ opacity: 1 }, "fast");
@@ -85,7 +85,7 @@ $(function() {
 $(function() {
 	$("#project6").css("opacity","1");
 	$("#project6").hover(function() {
-		$(this).stop().animate({ opacity: 0.8 }, "fast");
+		$(this).stop().animate({ opacity: 0.85 }, "fast");
 	},
 	function() {
 		$(this).stop().animate({ opacity: 1 }, "fast");
@@ -95,7 +95,7 @@ $(function() {
 $(function() {
 	$("#project7").css("opacity","1");
 	$("#project7").hover(function() {
-		$(this).stop().animate({ opacity: 0.8 }, "fast");
+		$(this).stop().animate({ opacity: 0.85 }, "fast");
 	},
 	function() {
 		$(this).stop().animate({ opacity: 1 }, "fast");
@@ -105,9 +105,22 @@ $(function() {
 $(function() {
 	$("#project8").css("opacity","1");
 	$("#project8").hover(function() {
-		$(this).stop().animate({ opacity: 0.8 }, "fast");
+		$(this).stop().animate({ opacity: 0.85 }, "fast");
 	},
 	function() {
 		$(this).stop().animate({ opacity: 1 }, "fast");
 	});
 });
+
+$(document).ready(function($) {
+  window.fnames = new Array();
+  window.ftypes = new Array();
+  fnames[0]='EMAIL';
+  ftypes[0]='email';
+  fnames[1]='FNAME';
+  ftypes[1]='text';
+  fnames[2]='LNAME';
+  ftypes[2]='text';
+  fnames[5]='MSG';
+  ftypes[5]='text';
+} (jQuery));var $mcj = jQuery.noConflict(true);
