@@ -1,6 +1,6 @@
 # Delani Studio
 A landing page project for a fictional Delani Studio. 
-# Akan Name Generator
+# Delani Studio
 #### This repo creates a landing page for a fictional website, Delani Studio.
 #### By **Benson Langat**
 ## Description
