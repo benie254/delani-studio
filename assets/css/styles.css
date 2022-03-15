@@ -243,7 +243,7 @@ footer {
 }
 
 footer p {
-  font-family: cursive;
+  font-family: 'Roboto', sans-serif;;
   margin-top: 0px;
   border-top-width: 0px;
   margin-bottom: 0px;
@@ -282,4 +282,18 @@ footer p {
     padding: 10px 16px;
     text-align: left;
   }
+  #portfolioRow {
+    margin-left: 125px;;
+  }
+  #portfolioRow2 {
+    margin-left: 125px;
+    padding-bottom: 15px;
+  }
+  #whatWeDoRowId {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
 }
